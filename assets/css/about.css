@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #030406;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1110px;
+    flex: 1;
+}
+
+.header {
+    background-color: #151515;
+    padding: 10px 0;
+    
+    font-family: Arial, sans-serif;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.nav_list li {
+    margin-left: 20px;
+}
+
+.nav_list a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav_list a:hover {
+    text-decoration: underline;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 40px 0;
+    flex: 1;
+}
+
+.footer {
+    background-color: #1c1c1c;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+.title {
+    text-align: center;
+    margin-right: 25px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    flex-wrap: wrap;
+}
+
+.about-text-left {
+    flex: 1;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    padding-right: 50px;
+}
+
+.about-text-right {
+    flex: 1;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.about-text-right h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about-text-right p,
+.about-text-right li {
+    margin-bottom: 10px;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 100%; 
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
+}
+
+.trainer {
+    min-width: 100%;
+    padding: 20px; 
+    box-sizing: border-box;
+    margin: 0px 120px;
+
+}
+
+.trainer img {
+    object-fit: contain; 
+    height: 500px;
+    width: auto;
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#prevBtn { left: 10px; }
+#nextBtn { right: 10px; }
+
