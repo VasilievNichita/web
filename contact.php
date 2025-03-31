@@ -8,16 +8,16 @@
     <header class="header">
         <div class="container header-content">
             <div class="logo">
-                <a href="/index.html">
+                <a href="/index.php">
                     <img src="assets/img/logo.jpeg" alt="Marts fitness">
                 </a>
             </div>
             <nav class="nav">
                 <ul class="nav_list">
-                    <li><a href="/about.html">О нас</a></li>
-                        <li><a href="/abonements.html">Абонементы</a></li>
-                        <li><a href="/locattion.html">Расположение</a></li>
-                        <li><a href="/contact.html">Контакты</a></li>
+                    <li><a href="/about.php">О нас</a></li>
+                        <li><a href="/abonements.php">Абонементы</a></li>
+                        <li><a href="/locattion.php">Расположение</a></li>
+                        <li><a href="/contact.php">Контакты</a></li>
                    </ul>
             </nav>
         </div>

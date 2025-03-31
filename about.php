@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marts Fitness - Услуги</title>
+    <link rel="stylesheet" href="assets/css/about.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="/index.php">
+                    <img src="assets/img/logo.jpeg" alt="Marts fitness">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li><a href="/about.php">О нас</a></li>
+                        <li><a href="/abonements.php">Абонементы</a></li>
+                        <li><a href="/locattion.php">Расположение</a></li>
+                        <li><a href="/contact.php">Контакты</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container about-section">
+        <div class="container">
+            <section class="about-content">
+                <div class="about-text-left">
+                    <h2 class="title">О нас</h2>
+                    <p>Приготовьтесь снести препятствия разума и тела. Мы в Collective Gyms считаем, что возвращение себя к работе означает установление собственного темпа. Так что начните свой путь с нами сегодня.</p>
+                </div>
+                <h2 class="title">Наши тренеры</h2>
+                <div class="slider">
+                    <button id="prevBtn" class="slider-btn">❮</button>
+                    <div class="slider-container">
+                        <div class="trainer">
+                            <img src="assets/img/trainer1.jpg" alt="Тренер 1">
+                            <h3>Весло Дескавери</h3>
+                            <p>Специалист по силовым тренировкам и кроссфиту.</p>
+                        </div>
+                
+                        <div class="trainer">
+                            <img src="assets/img/trainer2.jpg" alt="Тренер 2">
+                            <h3>Крутой Олегатор</h3>
+                            <p>Йога и пилатес – гармония души и тела.</p>
+                        </div>
+                
+                        <div class="trainer">
+                            <img src="assets/img/trainer3.jpg" alt="Тренер 3">
+                            <h3>Прямой Никитос</h3>
+                            <p>Кардиотренировки и функциональный тренинг.</p>
+                        </div>
+                    </div>
+                    <button id="nextBtn" class="slider-btn">❯</button>
+                </div>
+                
+            </section>
+        
+        </div>
+        </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Marts Fitness. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="./assets/js/about.js"></script>
+</body>
+</html>
