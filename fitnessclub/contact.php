@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marts Fitness - Контакты</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="/index.php">
+                    <img src="assets/img/logo.jpeg" alt="Marts fitness">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li><a href="/about.php">О нас</a></li>
+                        <li><a href="/abonements.php">Абонементы</a></li>
+                        <li><a href="/locattion.php">Расположение</a></li>
+                        <li><a href="/contact.php">Контакты</a></li>
+                   </ul>
+            </nav>
+        </div>
+    </header>
+<main>
+    <section class="contact-section container">
+        <h2>Свяжитесь с нами</h2>
+        <p>Мы всегда рады ответить на ваши вопросы и выслушать предложения.</p>
+        <p><strong>Адрес:</strong> ул. Штефан чел Маре 72, Кишинев</p>
+        <p><strong>Телефон:</strong> +373 123 456 789</p>
+        <p><strong>Email:</strong> martsfits@gmail.com</p>
+
+        <form class="contact-form" action="https://formspree.io/f/xldjondv" method="POST">
+            <label>Имя:</label>
+            <input type="text" name="name" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Сообщение:</label>
+            <textarea name="message" rows="5" required></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+</main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Marts Fitness. Все права защищены.</p>
+        </div>
+    </footer>
+<script src="assets/js/jquery-3.7.1.js"></script>
+
+<script src="assets/js/script-contact.js">
+
+</script>
+
+</html>
+

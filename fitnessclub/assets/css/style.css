@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #030406;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1110px;
+    flex: 1;
+}
+
+.header {
+    background-color: #151515;
+    padding: 10px 0;
+    
+    font-family: Arial, sans-serif;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.nav_list li {
+    margin-left: 20px;
+}
+
+.nav_list a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav_list a:hover {
+    text-decoration: underline;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 40px 0;
+    flex: 1;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #ad955f;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #8c774f;
+}
+
+.footer {
+    background-color: #1c1c1c;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.membership-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 0;
+}
+
+.membership-content {
+    max-width: 500px;
+}
+
+.membership-content h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.membership-content .membership-btn {
+    background-color: black;
+    color: white;
+    padding: 25px 40px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.membership-content .membership-btn:hover {
+    background-color: #333;
+}
+
+.membership-details {
+    max-width: 550px;
+}
+
+.membership-details .price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.membership-details .type {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.membership-details .description {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.membership-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 40px 0;
+}
+
+.title {
+    text-align: center;
+    margin-right: 25px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    flex-wrap: wrap;
+}
+
+.about-text-left {
+    flex: 1;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    padding-right: 50px;
+}
+
+.about-text-right {
+    flex: 1;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.about-text-right h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about-text-right p,
+.about-text-right li {
+    margin-bottom: 10px;
+}
